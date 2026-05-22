@@ -7,6 +7,10 @@ GREETINGS = {
     "fr": "Bonjour",
     "de": "Hallo",
     "ar": "مرحبا",
+    "ja": "こんにちは",
+    "ko": "안녕하세요",
+    "pt": "Olá",
+    "tr": "Merhaba",
 }
 
 
