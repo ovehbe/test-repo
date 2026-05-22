@@ -1,0 +1,6 @@
+id,name,email,role
+1,Alice,alice@example.com,admin
+2,Bob,bob@example.com,editor
+3,Charlie,charlie@example.com,viewer
+4,Diana,diana@example.com,editor
+5,Eve,eve@example.com,viewer

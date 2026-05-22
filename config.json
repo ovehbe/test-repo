@@ -1,0 +1,16 @@
+{
+  "app_name": "test-repo",
+  "version": "0.1.0",
+  "debug": true,
+  "port": 8000,
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "testdb"
+  },
+  "features": {
+    "dark_mode": true,
+    "notifications": false,
+    "max_upload_mb": 25
+  }
+}
