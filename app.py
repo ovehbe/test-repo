@@ -1,5 +1,8 @@
 import json
+import logging
 from http.server import HTTPServer, BaseHTTPRequestHandler
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
 GREETINGS = {
     "en": "Hello",
@@ -14,6 +17,7 @@ class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         lang = self.path.strip("/") or "en"
         greeting = GREETINGS.get(lang, GREETINGS["en"])
+        logging.info("Request: lang=%s greeting=%s", lang, greeting)
 
         payload = json.dumps({"language": lang, "greeting": greeting})
 
