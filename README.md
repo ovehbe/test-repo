@@ -1,6 +1,4 @@
 # Test Repo
-This is a test repo
-
 A dummy repository for testing git GUI clients.
 
 ## Structure
